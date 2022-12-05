@@ -30,7 +30,7 @@ bottone = document.getElementById("bottone");
 bottone.addEventListener(`click`, function(){
 
     //Recuperariamo la parola
-    parola = document.getElementById('parola').toString();
+    parola = document.getElementById('parola').value.toString();
     console.log(parola);
 
     //Eseguiamo la funzione
